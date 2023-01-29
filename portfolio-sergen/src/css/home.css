@@ -24,7 +24,7 @@ body{
 .photo-content .photo{
     width: 95%;
     height: 67vh;
-    background: url(../img/portrait.jpeg);
+    background: url(../img/portrait.jpeg) no-repeat;
     border-radius: 7%;
     margin-left: 5%;
 }
