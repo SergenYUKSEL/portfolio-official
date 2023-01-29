@@ -1,0 +1,29 @@
+.skills-bar{
+    width: 100%;
+    height: 60px;
+    background: #FFF;
+    margin-top: 1.7vh;
+    transform: rotate(-0.99deg);
+}
+.skills-list{
+    font-weight: 800;
+    font-size: 1.2em;
+    line-height: 3vh;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #1D1E22;
+    gap: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.skills-list li{
+    margin-top: 2vh;
+}
+.skills-list .stars{
+    font-size: 1.8em;
+    margin-top: 3vh;
+    color: #FF8E5E;
+}

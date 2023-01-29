@@ -1,0 +1,88 @@
+body{
+    background-color: #1E1E1E;
+}
+.container{
+    width: 80%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    margin-top: 4vh;
+    margin-left: 10%;
+    gap: 9.4%;
+}
+.content{
+    width: 41.5%;
+    height: 58vh;
+}
+.photo-content{
+    width: 49%;
+    height: 70vh;
+}
+.photo-content .photo{
+    width: 95%;
+    height: 67vh;
+    background: url(../img/portrait.jpeg);
+    border-radius: 7%;
+    margin-left: 5%;
+}
+.light{
+    z-index: -10;
+    position: absolute;
+    left: -200px;
+    top: -260px;
+    width: 80%;
+    height: 150vh;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.11) 0%, rgba(29, 30, 34, 0) 100%);
+}
+.f-scontent .f-text{
+    font-size: 1.1em;
+    line-height: 3.5vh;
+    color: rgba(255, 255, 255, 0.5);
+}
+.f-scontent .f-text span{
+    color: rgba(255, 255, 255, 1);
+}
+.f-scontent .s-text{
+    font-weight: 800;
+    font-size: 3em;
+    line-height: 7vh;
+    color: #FFF;
+}
+.s-scontent .f-text{
+    font-weight: 800;
+    font-size: 3.3em;
+    line-height: 8vh;
+    width: 70%;
+    color: #FF8E5E;
+}
+.s-scontent .s-text{
+    font-size: 0.88em;
+    line-height: 22px;
+    width: 75%;
+    color: #FFF;
+    margin-top: 1.9vh;
+}
+.container .content .contact{
+    z-index: 100;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 7vh;
+    background: #FF8E5E;
+    border: transparent;
+    border-radius: 60px;
+    margin-top: 10px;
+    gap: 10px;
+    cursor: pointer;
+}
+.container .content .contact .contact-txt{
+    font-size: 1.2em;
+    width: 100%;
+    height: 3vh;
+    color: #1D1E22;
+}

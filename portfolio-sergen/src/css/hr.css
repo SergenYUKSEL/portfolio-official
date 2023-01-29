@@ -1,0 +1,6 @@
+.line-rect{
+    width: 100%;
+    height: .5vh;
+    background: rgba(255, 255, 255, 0.02);
+    backdrop-filter: blur(6px);
+}
